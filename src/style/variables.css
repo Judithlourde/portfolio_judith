@@ -1,0 +1,36 @@
+:root {
+	/* font-size */
+	--heading: 1.6rem;
+	--body: 1rem;
+	--caption: 0.66rem;
+
+	/* colors */
+	--primary: #000000;
+	--secondary: #E3E3E3;
+
+	/* Margin */
+	--outside-margin: 0px 20px;
+
+	--bottom-big: 100px;
+
+	--bottom-medium: 40px;
+	--top-medium: var(--bottom-medium);
+
+	--bottom-small: 20px;
+	--top-small: var(--bottom-small);
+	--left-small: var(--bottom-small);
+	--right-small: var(--bottom-small);
+
+	--bottom-xsmall: 10px;
+	--top-xsmall: var(--bottom-xsmall);
+	--left-xsmall: var(--bottom-xsmall);
+	--right-xsmall: var(--bottom-xsmall);
+
+	/* Padding */
+
+	/* grid */
+	--gap-big: 10px;
+	--gap-small: 5px;
+	--grid-column-12: repeat(12, 1fr);
+}
+
