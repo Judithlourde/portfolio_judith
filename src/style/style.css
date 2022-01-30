@@ -1,6 +1,6 @@
 body {
-	background: var(--background);
-	color: var(--foreground);
+	background: var(--primary);
+	color: var(--secondary);
 	font-size: var(--font-size);
 	font-family: var(--font-family);
 }

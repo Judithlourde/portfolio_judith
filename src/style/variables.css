@@ -3,10 +3,12 @@
 	--heading: 1.6rem;
 	--body: 1rem;
 	--caption: 0.66rem;
+	--font-family: 'Source Code Pro', monospace;
 
 	/* colors */
-	--primary: #000000;
+	--primary: #000;
 	--secondary: #E3E3E3;
+	--highlight: #8E05C2;
 
 	/* Margin */
 	--outside-margin: 0px 20px;
@@ -27,9 +29,13 @@
 	--right-xsmall: var(--bottom-xsmall);
 
 	/* Padding */
+	--padding-big: 40px;
+	--padding-medium: 20px;
+	--padding-small: 10px;
 
 	/* grid */
-	--gap-big: 10px;
+	--gap-big: 50px;
+	--gap-medium: 10px;
 	--gap-small: 5px;
 	--grid-column-12: repeat(12, 1fr);
 }

@@ -1,6 +1,7 @@
-/* @font-face {
-	font-family: '...';
-	src: url('/fonts/...');
+@font-face {
+	font-family: 'Source Code Pro', monospace;
+	src: url('/fonts/SourceCodePro-variableFont_wght.ttf');
 	font-weight: normal;
 	font-style: normal;
-} */
+}
+
