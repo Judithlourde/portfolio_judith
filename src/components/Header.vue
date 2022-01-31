@@ -48,19 +48,19 @@
         width: 100%;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
-        padding: var(--padding-big);
+        padding: var(--padding-big) 0;
         font-size: 20px;
     }
 
     .header__name {
-        grid-column: 1/ span 3;
-        text-align: center;
+        grid-column: 2/ span 4;
+        text-align: left;
     }
 
     .header__icons {
         display: flex;
-        justify-content: center;
-        grid-column: 12/ span 1;
+        justify-content: flex-end;
+        grid-column: 8/ span 4;
     }
 
     .header__navigation {
@@ -81,6 +81,10 @@
     @media screen and (min-width: 968px) {
         .header__icons {
             display: none;
+        }
+
+        .header__name {
+            grid-column: 3/ span 3;
         }
 
         .header__navigation {
