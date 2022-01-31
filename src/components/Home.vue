@@ -20,13 +20,9 @@
             </div>
 
             <div class="about__container-image">
-                <img src="/images/judith_image.png" alt="judith-image">
+                <img :src="page.preview.image" alt="judith-image">
             </div>
-        </div>  
-
-        
-
-         
+        </div>    
     </main> 
 </template>
 
