@@ -20,6 +20,14 @@ export default {
 						caption: `Judith_image`
 					},
 				},
+			],
+
+			projectImages: [
+				{ image: '/images/photographer_project.jpg', caption: 'photographer-image' },
+				{ image: '/images/dashboard_project.jpg', caption: 'dashboard-image' },
+				{ image: '/images/coffee-shop_project.jpg', caption: 'coffee-shop-image' },
+				{ image: '/images/pizza-shop_project.jpg', caption: 'pizza-shop-image' },
+				
 			]
 		};
 	},
@@ -31,6 +39,10 @@ export default {
 
 		getAbout(state) {
 			return state.about;
+		},
+
+		getProjectImages(state) {
+			return state.projectImages;
 		}
 	}
 }
